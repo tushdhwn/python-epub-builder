@@ -1,4 +1,4 @@
-#summary This tutorial shows you how you can use this library to convert a [http://www.gutenberg.org/wiki/Main_Page Project Gutenburg] book (Pride & Prejudice) in *5 minutes*.
+#summary This tutorial shows you how you can use this library to convert a Project Gutenburg book in 5 minutes.
 
 = Introduction =
 

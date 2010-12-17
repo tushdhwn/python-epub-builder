@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Being used here is the [http://code.google.com/p/python-epub-builder/source/browse/trunk/ez_epub.py simpler API], which is considerably easier than the [http://code.google.com/p/python-epub-builder/source/browse/trunk/epub.py full API]. You can still do a lot of things with it, such as multiple levels of chapter/section/subsection and CSS styling.
+Being used here is the [http://code.google.com/p/python-epub-builder/source/browse/trunk/ez_epub.py simpler API], which is considerably easier than the [http://code.google.com/p/python-epub-builder/source/browse/trunk/epub.py full API]. You can still do a lot of things with it, such as multiple levels of chapter/section/subsection, adding a book cover, and CSS styling.
 = Details =
 
 Gutenburg's books are poorly structured; the transcribers use whatever text formatting rules they want. The results are books whose text cannot be reflown to small mobile device screens, and cannot be easily consumed by computer processing systems. It is unbelievable that the project creators were so short-sighted to not define and enforce a book text formatting standard (one like wiki markup language or LaTeX would suffice). In the end programmers need to suffer to clean up this mess if they want to do anything.

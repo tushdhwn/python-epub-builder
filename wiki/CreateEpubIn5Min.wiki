@@ -7,7 +7,7 @@ Being used here is the [http://code.google.com/p/python-epub-builder/source/brow
 
 Gutenburg's books are poorly structured; the transcribers use whatever text formatting rules they want. The results are books whose text cannot be reflown to small mobile device screens, and cannot be easily consumed by computer processing systems. It is unbelievable that the project creators were so short-sighted to not define and enforce a book text formatting standard (one like wiki markup language or LaTeX would suffice). In the end programmers need to suffer to clean up this mess if they want to do anything.
 
-Enough for the complaints. [http://www.gutenberg.org/etext/1342 Pride & Prejudice] is actually not too bad. There is no indentation, and paragraphs are separated by empty lines, so I can write a short parser under 5 minutes. Each chapter (identified by a simple regular expression) corresponds to a 'section', and the paragraphs inside it are kept as a list. To detect the start and end of the book, I'll need the manual input of line numbers. Not intelligent huh? What can you expect out of a 5-minute code work?
+Enough for the complaints. [http://www.gutenberg.org/etext/1342 Pride & Prejudice] is actually not too bad. There is no indentation, and paragraphs are separated by empty lines, so I can write a short parser under 5 minutes. Each chapter (identified by a simple regular expression) corresponds to a 'section', and the paragraphs inside it are kept as a list. To detect the start and end of the book, I'll need line numbers to be manually specified. Not intelligent huh? What can you expect out of a 5-minute code work?
 
 {{{
 def parseBook(path, startLineNum, endLineNum):
